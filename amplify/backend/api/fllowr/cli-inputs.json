@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "fllowr",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/hasibhassan/Dev/fllowr/amplify/backend/api/fllowr/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
