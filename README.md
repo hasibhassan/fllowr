@@ -1,9 +1,6 @@
 # fllowr (Twitter Clone)
 
-## Technologies Used
+## Architecture
 
-- Next.js
-- GraphQL
-- AWS Lambda
-- Amazon DynamoDB
-- more
+- Amazon EventBridge as the main event bus
+- AWS Step Functions Express Workflows as the target for the events that are routed by EventBridge based on the rules
